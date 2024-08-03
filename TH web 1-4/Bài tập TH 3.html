@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bài tập thực hành 3</title>
+</head>
+<body>
+	Đăng kí thành viên CLB
+	<form method="POST" action="">
+		Họ và tên: <input type="text" name="họ tên"><br>
+		Giới tính: <input type="radio" name="giới tính" value="Nam">Nam
+					<input type="radio" name="giới tính" value="Nữ">Nữ<br>
+		Ngành học: <select name="ngành học">
+					<option value="CNTT">CNTT</option>
+					<option value="Tự động hóa">Tự động hóa</option>
+					<option value="AI">AI</option>
+					<option value="Điện">Điện</option>
+					<option value="Cơ khí">Cơ khí</option>
+				</select><br>
+		Sở thích: <input type="checkbox" name="sở thích" value="Game">Game
+					<input type="checkbox" name="sở thích" value="Thể thao">Thể thao<br>
+					<input type="checkbox" name="sở thích" value="Ngủ">Ngủ
+					<input type="checkbox" name="sở thích" value="đọc sách">Đọc sách<br>
+		Lí do tham gia: <textarea name="Lí do" cols="22" rows="3"></textarea><br>
+				<input type="submit" name="submit" value="Đăng kí">
+				<input type="reset" name="reset" value="Nhập lại">
+	</form>
+	<br><br>
+
+	<form method="POST" action="">
+		<table border="1" style="border-color: greenyellow;>
+			<tr><th colspan="2">Đăng kí thành viên CLB</th></tr>
+			<tr>
+				<td>Họ và tên: </td>
+				<td><input type="text" name="họ tên"></td>
+			</tr>
+			<tr>
+				<td>Giới tính: </td>
+				<td><input type="radio" name="giới tính" value="Nam">Nam
+					<input type="radio" name="giới tính" value="Nữ">Nữ
+					<input type="radio" name="giới tính" value="BeDe"> BeDe<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Ngành học: </td>
+				<td>
+					<select name="ngành học">
+						<option value="CNTT">CNTT</option>
+						<option value="Tự động hóa">Tự động hóa</option>
+						<option value="AI">AI</option>
+						<option value="Điện">Điện</option>
+						<option value="Cơ khí">Cơ khí</option>
+					</select>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>Sở thích: </td>
+				<td>
+					<input type="checkbox" name="sở thích" value="Game">Game
+					<input type="checkbox" name="sở thích" value="Thể thao">Thể thao<br>
+					<input type="checkbox" name="sở thích" value="Ngủ">Ngủ
+					<input type="checkbox" name="sở thích" value="Đọc sách">Đọc sách<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Lí do tham gia: </td>
+				<td>
+					<textarea name="Lí do" cols="22" rows="3"></textarea><br>
+				</td>
+			</tr>
+			<tr>
+				<td>Mật khẩu: </td>
+				<td>
+					<input type="password" name="mật khẩu">
+				</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td>
+					<input type="submit" name="submit" value="Đăng kí"> 
+					<input type="reset" name="reset" value="Nhập lại">
+				</td>
+				
+			</tr>
+		</table>
+		
+	</form>
+
+</body>
+</html>
