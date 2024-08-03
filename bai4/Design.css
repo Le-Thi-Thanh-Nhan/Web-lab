@@ -1,0 +1,37 @@
+body {
+  background-color: pink; /* Hoặc mã màu khác */
+  background-repeat: no-repeat; /* Đảm bảo ảnh không lặp lại */
+  background-position: center; /* Căn ảnh ở giữa trang */
+  background-size: cover; /* Đảm bảo ảnh bao phủ toàn bộ trang */
+  margin-top: 100px;
+}
+.can-giua {
+  text-align: center; /* Căn giữa nội dung */
+}
+.phong1 {
+  width: 500px; /* Độ rộng của khung */
+  height: 35px; /* Chiều cao của khung */
+  border: 2px solid #000; /* Đường viền của khung */
+  border-radius: 20px; /* Bán kính của góc để tạo hình dạng bo tròn */
+  padding: 7px; /* Khoảng cách từ nội dung đến viền khung */
+  margin: 5px; /* Khoảng cách từ khung đến các phần tử xung quanh */
+  font-size: 20px;
+  letter-spacing: 1px; /* Khoảng cách giữa các ký tự */
+  word-spacing: 1px; /* Khoảng cách giữa các từ */
+  font-family: calibri;
+}
+.phong2{
+  font-size: 30px;
+  color: white;
+  border: 1px solid #87CEEB;
+  background-color: #87CEEB;
+  width: 200px; /* Độ rộng của khung */
+  height: 60px; /* Chiều cao của khung */
+  border-radius: 29px; /* Bán kính của góc để tạo hình dạng bo tròn */
+  padding: 7px; /* Khoảng cách từ nội dung đến viền khung */
+  margin: 5px; /* Khoảng cách từ khung đến các phần tử xung quanh */
+  font-family: calibri;
+  font-weight: 100;
+
+
+}
